@@ -173,6 +173,7 @@ h1,h2,h3,h4,h5
 	{
         background: url('../images/home-bg.jpg');
         background-size: cover;
+        background-position: center;
         background-repeat: no-repeat;
         padding-top: 120px;
         padding-bottom: 140px;
@@ -254,9 +255,13 @@ h1,h2,h3,h4,h5
 /* end work */
 
 /* start about */
+#about h2
+    {
+        text-align: center;
+    }
 #about h4
     {
-        padding: 15px 0;
+        padding: 20px 0 25px 0;
 		color: #D43F52;
     }
 #about .progress
